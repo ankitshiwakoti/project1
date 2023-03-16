@@ -8,7 +8,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open pro.html",
-            "file": "c:\\Users\\ankit\\Desktop\\project1\\pro.html"
+            "file": "c:\\Users\\ankit\\Desktop\\project1\\index.html"
         }
     ]
 }

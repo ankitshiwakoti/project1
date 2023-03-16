@@ -1,0 +1,142 @@
+
+
+/* ## Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%) */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:ital,wght@0,700;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+
+}
+button,li{
+    font-family: inherit;
+
+}
+body{
+    font-size: 14px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 10px;
+}
+h1{
+    color:hsl(212, 21%, 14%) ;
+}
+.price{
+    color:hsl(158, 36%, 37%);
+}
+
+h1,
+ .price{
+    font-family: 'Fraunces', serif;
+
+}
+h2{
+    text-transform: uppercase;
+    font-size: 0.87rem;
+    font-weight: 500;
+    color:hsl(158, 7%, 67%);
+    margin-bottom: 1rem;
+}
+p{
+    color: hsl(228, 12%, 48%);
+    line-height: 1.8;
+
+}
+.container article:last-child{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius:0 0 0.5 rem 0.5 rem;
+   
+}
+@media(min-width:640px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }.container article:first-child img{
+        border-radius: 0;
+    }.container article:last-child{
+        border-radius: 0;
+    }
+}
+
+.container article:first-child img{
+    border-radius: 1rem 1rem 0 0;
+    
+}
+.container{
+    max-width: 600px;
+    align-items: center;
+}
+.container h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.container p{
+    margin-bottom: 2rem;
+}
+.container ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+.container ul li:first-child{
+font-size: 2rem;
+margin-right: 1rem;
+
+}
+.container ul li:last-child|{
+    color:hsl(222, 13%, 38%)
+}
+
+ul{
+    list-style-type: none;
+}
+.container .btn{
+    background-color: hsl(158, 36%, 37%);
+    color:#fff;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    border-radius: 0.723rem;
+    outline: none;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.62rem 2rem;
+    cursor: pointer;
+}
+.container.btn:hover{
+    background-color: hsl(160, 37%, 22%)
+}
+.attribute{
+    font-size: 11px;
+     text-align: center ;
+    margin-top: 2rem;}
+
+ .attribute a
+     {color: hsl(228, 45% , 44% );
+    }
